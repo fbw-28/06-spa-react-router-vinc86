@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 20px;
+    background: rgb(199, 245, 226);
+}
+
+.navigation>ul {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.navigation>h1 {
+    font-size: 2.5rem;
+    color: rgb(87, 22, 87);
+}
+
+.link-active {
+    color: purple;
+    font-weight: bold;
+}
