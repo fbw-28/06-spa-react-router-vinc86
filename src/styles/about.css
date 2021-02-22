@@ -1,0 +1,41 @@
+.about-container {
+    display: flex;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.description-container>h1 {
+    font-size: 3rem;
+}
+
+.description-container>a {
+    font-size: 2rem;
+    color: #fff;
+    background: purple;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.description-container>a:hover {
+    background: rgb(129, 54, 129);
+}
+
+p {
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.7rem;
+    margin: 30px 0px;
+}
